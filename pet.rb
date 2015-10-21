@@ -48,19 +48,19 @@ class Horse
   end
 
   def observe
-      puts("Your pet has died, go outside and play again") if health < 0
+    puts('Your pet has died, go outside and play again') if health < 0
   end
 
   def help
-   puts 'The list of possible commands (type what pet have to do):'
-   puts '1. eat'
-   puts '2. run'
-   puts '3. jog_trot'
-   puts '4. get_bath'
-   puts '5. sleep'
-   puts '6. ostacle_race'
-   puts '7. put_saddle'
-   puts '8. observe'
+    puts 'The list of possible commands ( type what pet have to do ):'
+    puts '1. eat'
+    puts '2. run'
+    puts '3. jog_trot'
+    puts '4. get_bath'
+    puts '5. sleep'
+    puts '6. ostacle_race'
+    puts '7. put_saddle'
+    puts '8. observe'
   end
 
   def info
@@ -89,5 +89,4 @@ class Horse
     end
   end
 end
-
 Horse.new('')

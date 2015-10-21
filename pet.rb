@@ -30,7 +30,7 @@ class Horse
     @dirty += 1
   end
 
-  def get_bath
+  def take_bath
     @dirty = 0
   end
 
@@ -48,9 +48,7 @@ class Horse
   end
 
   def observe
-    if health < 0
-      puts("Your pet has died, go outside and play again")
-    end
+      puts("Your pet has died, go outside and play again") if health < 0
   end
 
   def help
